@@ -2,7 +2,7 @@
 <h1><font color="black">BMW</font></h1>
 <head>
 
-	<style>
+    <style>
 p.one {
     border-style: solid;
     border-width: 1px;
@@ -49,7 +49,13 @@ a:hover, a:active {
 </ul>
 
 <head>
-<style>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
 body {
     background-color: #0099FF;
 }
@@ -66,6 +72,7 @@ p {
 }
 </style>
 </head>
+
 <body>
 
 
@@ -73,9 +80,26 @@ p {
 <div class="marquee">
 <center><img src="bmw_logo.jpg" style="width:304px;height:228px;"></center> 
 </div>
-<h2>Deskripsi</h2>
-<p class="inset" align="justify">BMW (singkatan untuk Bayerische Motoren Werke, atau dalam Bahasa Inggris, Bavarian Motor Works), adalah sebuah perusahaan otomotif Jerman yang memproduksi mobil dan sepeda motor. BMW didirikan pada tahun 1916 oleh Franz Josef Popp. BMW AG adalah perusahaan induk dari merk mobil MINI dan Rolls-Royce, dan, dulunya Rover. BMW dikenal sebagai salah satu perusahaan mobil mewah dengan performa tinggi, dan juga salah satu perusahaan mobil pertama yang menggunakan teknologi ABS.</p>
 
+
+
+    <div class="container">
+        <h2>Deskripsi</h2>
+<p class="inset" align="justify">BMW (singkatan untuk Bayerische Motoren Werke, atau dalam Bahasa Inggris, Bavarian Motor Works), adalah sebuah perusahaan otomotif Jerman yang memproduksi mobil dan sepeda motor. BMW didirikan pada tahun 1916 oleh Franz Josef Popp. BMW AG adalah perusahaan induk dari merk mobil MINI dan Rolls-Royce, dan, dulunya Rover. BMW dikenal sebagai salah satu perusahaan mobil mewah dengan performa tinggi, dan juga salah satu perusahaan mobil pertama yang menggunakan teknologi ABS.</p>
+  <h2>Masukkan Komentar Anda</h2>
+  <form role="form">
+    <div class="form-group">
+      <label for="text">Komentar:</label>
+      <input type="text" class="form-control" name="komentar" placeholder="Komentar">
+    </div>    
+    <div class="radio">
+      <label type="text"><b>Apakah Artikel ini Berguna?</b></label>  <br>
+      <label><input type="radio" name="berguna"> Berguna</label><br>
+      <label><input type="radio" name="berguna"> Tidak Berguna</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
 
 
 </body>
